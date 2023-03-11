@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/body"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#FBFBFB"
+android:visibility="visible"
+tools:context=".MainActivity"
+tools:visibility="visible"
+android:textColor="@color/teal_700"
+    >
+
+
+    <TextView
+        android:id="@+id/tVTitle"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:background="@color/teal_200"
+        android:paddingTop="60px"
+        android:text="Componentes Basicos"
+        android:textColor="#fff"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/vtName"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="Name"
+        app:autoSizeTextType="uniform" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonNam5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+<TextView
+    android:id="@+id/bienvenida"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="50px"
+    />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="RADIO BUTTON"
+        android:textStyle="normal"
+        app:autoSizeTextType="uniform" />
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="30px"
+    android:id="@+id/RadiogroupPadre"
+    >
+
+    <RadioButton
+        android:id="@+id/btnSaludar"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30px"
+        android:text="saludar"
+        tools:ignore="HardcodedText" />
+
+    <RadioButton
+        android:id="@+id/btnDespedirce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="despedirce" />
+
+
+</RadioGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:text="CHECK BOX"
+        android:textStyle="normal"
+        app:autoSizeTextType="uniform" />
+
+    <CheckBox
+    android:id="@+id/checkBox1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="CheckBox1" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox2" />
+
+    <TextView
+        android:id="@+id/textViewyr"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Toggle Button"
+        android:textStyle="normal"
+        app:autoSizeTextType="uniform" />
+
+<ToggleButton
+    android:id="@+id/btnToggle"
+    android:textOn="encendido"
+    android:textOff="apagado"
+    android:layout_width="128dp"
+    android:layout_height="wrap_content"
+    android:text="ToggleButton"
+
+    />
+
+    <TextView
+        android:id="@+id/textViewyrwer"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:text="Switch Off"
+        android:textStyle="normal"
+        app:autoSizeTextType="uniform" />
+
+    <Switch
+    android:id="@+id/btnSwitch"
+    android:layout_width="165dp"
+    android:layout_height="wrap_content"
+    android:text="Switch"
+    />
+
+
+    <ImageButton
+        android:id="@+id/btnColor"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03D9C4"
+        app:srcCompat="@android:drawable/ic_lock_idle_low_battery" />
+
+    <Button
+        android:id="@+id/btnSent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03D9C4"
+        android:text="Sent" />
+
+</LinearLayout>
